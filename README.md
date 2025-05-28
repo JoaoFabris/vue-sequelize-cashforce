@@ -1,14 +1,10 @@
 # vue-sequelize-cashforce
 ## Screenshot da Aplicação
 
-![Screenshot da aplicação frontend](/cashforce/frontend/src/assets/Screenshot 2025-05-27 221416.png) // ou pelo link https://imgur.com/a/RPw9Wpk# vue-sequelize-cashforce
+![Screenshot da aplicação frontend](/cashforce/frontend/src/assets/Screenshot 2025-05-27 221416.png) // ou pelo link https://imgur.com/a/RPw9Wpk#
 
 
 # Cashforce Frontend
-
-## Screenshot da Aplicação
-
-![Screenshot da aplicação frontend](./screenshots/frontend-screenshot.png)
 
 ## Descrição
 
