@@ -1,0 +1,84 @@
+# Remover todos os arquivos do staging (não afeta seus arquivos reais)
+git rm -r --cached .
+
+# Criar um .gitignore mais completo
+cat > .gitignore << 'EOL'
+# Dependências
+node_modules
+*/node_modules
+/node_modules/
+/frontend/node_modules/
+/backend/node_modules/
+
+# Arquivos de build
+/dist
+*/dist
+/build
+*/build
+/frontend/dist/
+/frontend/build/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+*/env
+*/.env
+*/.env.local
+/frontend/.env
+/frontend/.env.local
+/backend/.env
+/backend/.env.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Arquivos do editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de banco de dados
+*.sqlite
+*.sqlite3
+*.db
+
+# Arquivos de cache
+.cache/
+.parcel-cache/
+.npm
+.eslintcache
+.stylelintcache
+
+# Arquivos de coverage
+coverage
+*.lcov
+.nyc_output
+
+# Arquivos temporários
+.tmp/
+.temp/
+temp/
+tmp/
+EOL
+
+# Adicionar apenas os arquivos que você quer versionar
+git add README.md
+git add .gitignore
+git add screenshots/
