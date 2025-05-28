@@ -1,0 +1,36 @@
+/* src/assets/styles/main.scss */
+
+/* Importar fontes */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/* Variáveis de cores */
+:root {
+  --primary-color: #00AD8C;
+  --secondary-color: #021B51;
+  --text-color: #4D4D4D;
+  --light-text: #727272;
+  --border-color: #DFE2EB;
+  --background-color: #F5F7FB;
+  --white: #FFFFFF;
+  --table-header-bg: #F8F8F8;
+  --table-header-text: #A1A8B8;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Estilos de botões */
+button {
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+}
